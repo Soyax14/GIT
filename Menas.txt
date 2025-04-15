@@ -1,0 +1,19 @@
+sudo apt update
+apt upgrade
+sudo apt istall git
+git init
+git remote add origin "https://github.com/Soyax14/GIT.git"
+cd Documents
+mkdir projet-git
+cd projet-git
+nano index.html
+git add index.html
+git commit -m "index.html"
+git branch RIYAD
+git checkout RIYAD
+git push -u origin RIYAD
+nano Menas.txt
+git checkout master
+git merge RIYAD
+git push origin master
+
