@@ -3,7 +3,7 @@ sudo apt install git
 mkdir GIT
 cd GIT
 git init
-git remote add origin "https://github.com/Soyax14/GIT.git"
+ 
 git config user.email "qveigas@gmail.com"
 git config user.name "QuentinVGS"
 git branch QUENTIN
@@ -11,7 +11,6 @@ git checkout QUENTIN
 mkdir css
 cd css
 nano mobil.css
-cd ..
 git add mobil.css
 git commit -m mobil.css"
 git push -u origin QUENTIN
@@ -20,4 +19,6 @@ git push -u origin QUENTIN
 git merge QUENTIN
 git push origin master 
 nano VEIGAS.txt
-git add
+git add VEIGAS.txt
+git commit -m "commande de quentin"
+git pull -u origin master
