@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 sudo apt update
 sudo apt upgrade
 sudo apt install git
@@ -22,3 +23,29 @@ git commit -m "commande de Emrane smaki"
 git push -u origin master
 
 
+=======
+sudo apt update
+sudo apt upgrade
+sudo apt install git
+mkdir GIT
+cd GIT
+git init 
+git remote add origin "https://github.com/Soyax14/GIT.git"
+mkdir css
+cd css
+nano style.css
+git checkout -b EMRANE
+git add style.css
+git commit -m "css"
+git push -u origin EMRANE
+cd ..
+git checkout master
+git merge EMRANE
+git push origin master
+nano SMAKI.txt
+git add SMAKI.txt
+git commit -m "commande de Emrane smaki"
+git push -u origin master
+
+
+>>>>>>> 78c7f31299900e0fd8ffb9ab82b17c0b6bcecbdd
